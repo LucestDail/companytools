@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<meta charset="utf-8">
+<th:block th:fragment="sidebarFragment">
+	<div class="border-end bg-dark" id="sidebar-wrapper">
+		<div class="sidebar-heading list-group-item-dark bg-dark text-light">Team Meta Storage</div>
+		<div class="list-group list-group-flush">
+			<a class="list-group-item list-group-item-action list-group-item-dark bg-dark text-light p-3" href="/">메인</a>
+			<a class="list-group-item list-group-item-action list-group-item-dark bg-dark text-light p-3" href="/crawler/main">크롤러</a>
+			<a class="list-group-item list-group-item-action list-group-item-dark bg-dark text-light p-3" href="/scraper/main">스크래퍼</a>
+			<a class="list-group-item list-group-item-action list-group-item-dark bg-dark text-light p-3" href="/tel/main">통신비</a>
+		</div>
+	</div>
+</th:block>
+
+</html>
